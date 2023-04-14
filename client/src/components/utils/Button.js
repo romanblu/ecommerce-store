@@ -1,5 +1,5 @@
 import React from 'react'
-import './button.scss';
+import Wrapper from '../../assets/wrappers/Button'
 
 export default function Button(props) {
     let button = <button className="btn1">{props.text}</button>;
@@ -11,8 +11,8 @@ export default function Button(props) {
     }
 
     return (
-        <>
+        <Wrapper>
             {button}
-        </>
+        </Wrapper>
     )
 }

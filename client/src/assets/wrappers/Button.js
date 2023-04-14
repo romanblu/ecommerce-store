@@ -1,3 +1,6 @@
+import styled from 'styled-components'
+
+const Wrapper = styled.main`
 .btn1 {
   background-color: #4caf50; /* Green */
   border: none;
@@ -25,3 +28,7 @@
     transition: 0.5s ease;
   }
 }
+
+`
+
+export default Wrapper

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import ProductCard from '../ProductCard';
-import Input from '../utils/Input/Input';
+import Input from '../utils/Input';
 import { useNavigate} from 'react-router-dom';
 import axios from 'axios';
 import Wrapper from '../../assets/wrappers/Home';

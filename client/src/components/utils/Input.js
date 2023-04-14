@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Wrapper from '../../../assets/wrappers/Input'
+import Wrapper from '../../assets/wrappers/Input'
 
 export default function Input(props) {
     return (
